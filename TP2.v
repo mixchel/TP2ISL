@@ -14,7 +14,7 @@ module Decodificador(
                 4'b0000:case (Entrada)
                             C1: Saida = 4'b0001;
                             C2: Saida = 4'b0010;
-                            C1: Saida = 4'b0011;
+                            C3: Saida = 4'b0011;
                             C4: Saida = 4'b0100;
                             C5: Saida = 4'b0101;
                         endcase 
