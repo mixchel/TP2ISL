@@ -6,10 +6,10 @@ module Decodificador(
     initial begin
         Saida = 4'b0000;
     end
-    always @(posedge clk, Controle) begin
+    always @(posedge clk) begin
         if (Reset)
             Saida = 4'b0000;
-        else begin    
+        else begin if (Controle) begin   
             case (Saida)
                 4'b0000:case (Entrada)
                             7'b1100000: Saida = 4'b0001;
@@ -59,6 +59,7 @@ module Decodificador(
                             7'b1110101: Saida = 4'b1000;
                         endcase
             endcase
+        end
         end    
     end
 endmodule

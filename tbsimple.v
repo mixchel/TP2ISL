@@ -12,7 +12,7 @@ initial begin
         $dumpfile("Decodificador_tb2.vcd");
         $dumpvars(0, Decodificador_tb);
         #1 Reset_teste = 1'b0;
-        #1 Controle_teste =  1'b0;
+        #1 Controle_teste =  1'b1;
         #1000 Entrada_teste = 7'b1100000;
         #1000$display("Entrada: %b - Saida: %b", Entrada_teste, Saida_teste);
         #1000 Entrada_teste = 7'b1001001;
