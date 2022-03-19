@@ -1,4 +1,4 @@
-module Decodificador(
+module DecodificadorMaq(
     input [6:0] Entrada,
     input Controle, clk, Reset,
     output reg [3:0] Saida

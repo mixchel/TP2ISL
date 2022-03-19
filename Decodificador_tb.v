@@ -1,4 +1,4 @@
-module Decodificador_tb;
+module DecodificadorMaq_tb;
 reg clk;
 reg [6:0] Entrada_teste;
 reg Controle_teste, Reset_teste;
@@ -7,11 +7,11 @@ wire [3:0] Saida_teste;
 reg clk = 0;
 always #1 clk = !clk;
 
-Decodificador dut(.Entrada(Entrada_teste), .Controle(Controle_teste), .clk(clk), .Reset(Reset_teste), .Saida(Saida_teste));
+DecodificadorMaq dut(.Entrada(Entrada_teste), .Controle(Controle_teste), .clk(clk), .Reset(Reset_teste), .Saida(Saida_teste));
 
 initial begin
-        $dumpfile("Decodificador_tb.vcd");
-        $dumpvars(0, Decodificador_tb);
+        $dumpfile("DecodificadorMaq_tb.vcd");
+        $dumpvars(0, DecodificadorMaq_tb);
         $monitor("Entrada: %b - Saida: %b", Entrada_teste, Saida_teste);
 
         #0 Reset_teste = 1'b1;
