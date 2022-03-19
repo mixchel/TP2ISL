@@ -145,7 +145,7 @@ initial begin
         #500 Entrada_teste = 7'b1100000;
         #500 $display("Entrada: %b - Saida: %b      C1 -> Estado 1", Entrada_teste, Saida_teste);
         #500 Entrada_teste = 7'b1111100;
-        #500 $display("Entrada: %b - Saida: %b      C3 -> Estado 3", Entrada_teste, Saida_teste);
+        #500 $display("Entrada: %b - Saida: %b      C3 -> Invalido", Entrada_teste, Saida_teste);
         #250 Reset_teste = 1'b1;
         #250 Entrada_teste = 7'b0000000;
         #250 Reset_teste = 1'b0;
@@ -154,7 +154,7 @@ initial begin
         #500 Entrada_teste = 7'b1100000;
         #500 $display("Entrada: %b - Saida: %b      C1 -> Estado 1", Entrada_teste, Saida_teste);
         #500 Entrada_teste = 7'b1011010;
-        #500 $display("Entrada: %b - Saida: %b      C4 -> Estado 4", Entrada_teste, Saida_teste);
+        #500 $display("Entrada: %b - Saida: %b      C4 -> Invalido", Entrada_teste, Saida_teste);
         #250 Reset_teste = 1'b1;
         #250 Entrada_teste = 7'b0000000;
         #250 Reset_teste = 1'b0;
@@ -163,7 +163,7 @@ initial begin
         #500 Entrada_teste = 7'b1100000;
         #500 $display("Entrada: %b - Saida: %b      C1 -> Estado 1", Entrada_teste, Saida_teste);
         #500 Entrada_teste = 7'b1101110;
-        #500 $display("Entrada: %b - Saida: %b      C5 -> Estado 5", Entrada_teste, Saida_teste);
+        #500 $display("Entrada: %b - Saida: %b      C5 -> Invalido", Entrada_teste, Saida_teste);
         #250 Reset_teste = 1'b1;
         #250 Entrada_teste = 7'b0000000;
         #250 Reset_teste = 1'b0;
@@ -173,7 +173,7 @@ initial begin
         #500 Entrada_teste = 7'b1000100;
         #500 $display("Entrada: %b - Saida: %b      C2 -> Estado 2", Entrada_teste, Saida_teste);
         #500 Entrada_teste = 7'b1011010;
-        #500 $display("Entrada: %b - Saida: %b      C4 -> Estado 4", Entrada_teste, Saida_teste);
+        #500 $display("Entrada: %b - Saida: %b      C4 -> Invalido", Entrada_teste, Saida_teste);
         #250 Reset_teste = 1'b1;
         #250 Entrada_teste = 7'b0000000;
         #250 Reset_teste = 1'b0;
@@ -182,7 +182,7 @@ initial begin
         #500 Entrada_teste = 7'b1000100;
         #500 $display("Entrada: %b - Saida: %b      C2 -> Estado 2", Entrada_teste, Saida_teste);
         #500 Entrada_teste = 7'b1101110;
-        #500 $display("Entrada: %b - Saida: %b      C5 -> Estado 5", Entrada_teste, Saida_teste);
+        #500 $display("Entrada: %b - Saida: %b      C5 -> Invalido", Entrada_teste, Saida_teste);
         #250 Reset_teste = 1'b1;
         #250 Entrada_teste = 7'b0000000;
         #250 Reset_teste = 1'b0;
@@ -192,7 +192,7 @@ initial begin
         #500 Entrada_teste = 7'b1111100;
         #500 $display("Entrada: %b - Saida: %b      C3 -> Estado 3", Entrada_teste, Saida_teste);
         #500 Entrada_teste = 7'b1100000;
-        #500 $display("Entrada: %b - Saida: %b      C1 -> Estado 1", Entrada_teste, Saida_teste);
+        #500 $display("Entrada: %b - Saida: %b      C1 -> Invalido", Entrada_teste, Saida_teste);
         #250 Reset_teste = 1'b1;
         #250 Entrada_teste = 7'b0000000;
         #250 Reset_teste = 1'b0;
@@ -201,7 +201,7 @@ initial begin
         #500 Entrada_teste = 7'b1111100;
         #500 $display("Entrada: %b - Saida: %b      C3 -> Estado 3", Entrada_teste, Saida_teste);
         #500 Entrada_teste = 7'b1101110;
-        #500 $display("Entrada: %b - Saida: %b      C5 -> Estado 5", Entrada_teste, Saida_teste);
+        #500 $display("Entrada: %b - Saida: %b      C5 -> Invalido", Entrada_teste, Saida_teste);
         #250 Reset_teste = 1'b1;
         #250 Entrada_teste = 7'b0000000;
         #250 Reset_teste = 1'b0;
@@ -211,7 +211,7 @@ initial begin
         #500 Entrada_teste = 7'b1011010;
         #500 $display("Entrada: %b - Saida: %b      C4 -> Estado 4", Entrada_teste, Saida_teste);
         #500 Entrada_teste = 7'b1100000;
-        #500 $display("Entrada: %b - Saida: %b      C1 -> Estado 1", Entrada_teste, Saida_teste);
+        #500 $display("Entrada: %b - Saida: %b      C1 -> Invalido", Entrada_teste, Saida_teste);
         #250 Reset_teste = 1'b1;
         #250 Entrada_teste = 7'b0000000;
         #250 Reset_teste = 1'b0;
@@ -221,7 +221,7 @@ initial begin
         #500 Entrada_teste = 7'b1011010;
         #500 $display("Entrada: %b - Saida: %b      C4 -> Estado 4", Entrada_teste, Saida_teste);
         #500 Entrada_teste = 7'b1000100;
-        #500 $display("Entrada: %b - Saida: %b      C2 -> Estado 2", Entrada_teste, Saida_teste);
+        #500 $display("Entrada: %b - Saida: %b      C2 -> Invalido", Entrada_teste, Saida_teste);
         #250 Reset_teste = 1'b1;
         #250 Entrada_teste = 7'b0000000;
         #250 Reset_teste = 1'b0;
@@ -231,7 +231,7 @@ initial begin
         #500 Entrada_teste = 7'b1101110;
         #500 $display("Entrada: %b - Saida: %b      C5 -> Estado 5", Entrada_teste, Saida_teste);
         #500 Entrada_teste = 7'b1100000;
-        #500 $display("Entrada: %b - Saida: %b      C1 -> Estado 1", Entrada_teste, Saida_teste);
+        #500 $display("Entrada: %b - Saida: %b      C1 -> Invalido", Entrada_teste, Saida_teste);
         #250 Reset_teste = 1'b1;
         #250 Entrada_teste = 7'b0000000;
         #250 Reset_teste = 1'b0;
@@ -240,7 +240,7 @@ initial begin
         #500 Entrada_teste = 7'b1101110;
         #500 $display("Entrada: %b - Saida: %b      C5 -> Estado 5", Entrada_teste, Saida_teste);
         #500 Entrada_teste = 7'b1000100;
-        #500 $display("Entrada: %b - Saida: %b      C2 -> Estado 2", Entrada_teste, Saida_teste);
+        #500 $display("Entrada: %b - Saida: %b      C2 -> Invalido", Entrada_teste, Saida_teste);
         #250 Reset_teste = 1'b1;
         #250 Entrada_teste = 7'b0000000;
         #250 Reset_teste = 1'b0;
@@ -249,7 +249,7 @@ initial begin
         #500 Entrada_teste = 7'b1101110;
         #500 $display("Entrada: %b - Saida: %b      C5 -> Estado 5", Entrada_teste, Saida_teste);
         #500 Entrada_teste = 7'b1111100;
-        #500 $display("Entrada: %b - Saida: %b      C3 -> Estado 3", Entrada_teste, Saida_teste);
+        #500 $display("Entrada: %b - Saida: %b      C3 -> Invalido", Entrada_teste, Saida_teste);
         #250 Reset_teste = 1'b1;
         #250 Entrada_teste = 7'b0000000;
         #250 Reset_teste = 1'b0;
@@ -388,7 +388,7 @@ initial begin
         #500 Entrada_teste = 7'b1100000;
         #500 $display("Entrada: %b - Saida: %b      C1 -> Estado 1", Entrada_teste, Saida_teste);
         #500 Entrada_teste = 7'b1111100;
-        #500 $display("Entrada: %b - Saida: %b      C3 -> Estado 3", Entrada_teste, Saida_teste);
+        #500 $display("Entrada: %b - Saida: %b      C3 -> Invalido", Entrada_teste, Saida_teste);
         #250 Reset_teste = 1'b1;
         #250 Entrada_teste = 7'b0000000;
         #250 Reset_teste = 1'b0;
@@ -397,7 +397,7 @@ initial begin
         #500 Entrada_teste = 7'b1100000;
         #500 $display("Entrada: %b - Saida: %b      C1 -> Estado 1", Entrada_teste, Saida_teste);
         #500 Entrada_teste = 7'b1011010;
-        #500 $display("Entrada: %b - Saida: %b      C4 -> Estado 4", Entrada_teste, Saida_teste);
+        #500 $display("Entrada: %b - Saida: %b      C4 -> Invalido", Entrada_teste, Saida_teste);
         #250 Reset_teste = 1'b1;
         #250 Entrada_teste = 7'b0000000;
         #250 Reset_teste = 1'b0;
@@ -406,7 +406,7 @@ initial begin
         #500 Entrada_teste = 7'b1100000;
         #500 $display("Entrada: %b - Saida: %b      C1 -> Estado 1", Entrada_teste, Saida_teste);
         #500 Entrada_teste = 7'b1101110;
-        #500 $display("Entrada: %b - Saida: %b      C5 -> Estado 5", Entrada_teste, Saida_teste);
+        #500 $display("Entrada: %b - Saida: %b      C5 -> Invalido", Entrada_teste, Saida_teste);
         #250 Reset_teste = 1'b1;
         #250 Entrada_teste = 7'b0000000;
         #250 Reset_teste = 1'b0;
@@ -416,7 +416,7 @@ initial begin
         #500 Entrada_teste = 7'b1000100;
         #500 $display("Entrada: %b - Saida: %b      C2 -> Estado 2", Entrada_teste, Saida_teste);
         #500 Entrada_teste = 7'b1011010;
-        #500 $display("Entrada: %b - Saida: %b      C4 -> Estado 4", Entrada_teste, Saida_teste);
+        #500 $display("Entrada: %b - Saida: %b      C4 -> Invalido", Entrada_teste, Saida_teste);
         #250 Reset_teste = 1'b1;
         #250 Entrada_teste = 7'b0000000;
         #250 Reset_teste = 1'b0;
@@ -425,7 +425,7 @@ initial begin
         #500 Entrada_teste = 7'b1000100;
         #500 $display("Entrada: %b - Saida: %b      C2 -> Estado 2", Entrada_teste, Saida_teste);
         #500 Entrada_teste = 7'b1101110;
-        #500 $display("Entrada: %b - Saida: %b      C5 -> Estado 5", Entrada_teste, Saida_teste);
+        #500 $display("Entrada: %b - Saida: %b      C5 -> Invalido", Entrada_teste, Saida_teste);
         #250 Reset_teste = 1'b1;
         #250 Entrada_teste = 7'b0000000;
         #250 Reset_teste = 1'b0;
@@ -435,7 +435,7 @@ initial begin
         #500 Entrada_teste = 7'b1111100;
         #500 $display("Entrada: %b - Saida: %b      C3 -> Estado 3", Entrada_teste, Saida_teste);
         #500 Entrada_teste = 7'b1100000;
-        #500 $display("Entrada: %b - Saida: %b      C1 -> Estado 1", Entrada_teste, Saida_teste);
+        #500 $display("Entrada: %b - Saida: %b      C1 -> Invalido", Entrada_teste, Saida_teste);
         #250 Reset_teste = 1'b1;
         #250 Entrada_teste = 7'b0000000;
         #250 Reset_teste = 1'b0;
@@ -444,7 +444,7 @@ initial begin
         #500 Entrada_teste = 7'b1111100;
         #500 $display("Entrada: %b - Saida: %b      C3 -> Estado 3", Entrada_teste, Saida_teste);
         #500 Entrada_teste = 7'b1101110;
-        #500 $display("Entrada: %b - Saida: %b      C5 -> Estado 5", Entrada_teste, Saida_teste);
+        #500 $display("Entrada: %b - Saida: %b      C5 -> Invalido", Entrada_teste, Saida_teste);
         #250 Reset_teste = 1'b1;
         #250 Entrada_teste = 7'b0000000;
         #250 Reset_teste = 1'b0;
@@ -454,7 +454,7 @@ initial begin
         #500 Entrada_teste = 7'b1011010;
         #500 $display("Entrada: %b - Saida: %b      C4 -> Estado 4", Entrada_teste, Saida_teste);
         #500 Entrada_teste = 7'b1100000;
-        #500 $display("Entrada: %b - Saida: %b      C1 -> Estado 1", Entrada_teste, Saida_teste);
+        #500 $display("Entrada: %b - Saida: %b      C1 -> Invalido", Entrada_teste, Saida_teste);
         #250 Reset_teste = 1'b1;
         #250 Entrada_teste = 7'b0000000;
         #250 Reset_teste = 1'b0;
@@ -464,7 +464,7 @@ initial begin
         #500 Entrada_teste = 7'b1011010;
         #500 $display("Entrada: %b - Saida: %b      C4 -> Estado 4", Entrada_teste, Saida_teste);
         #500 Entrada_teste = 7'b1000100;
-        #500 $display("Entrada: %b - Saida: %b      C2 -> Estado 2", Entrada_teste, Saida_teste);
+        #500 $display("Entrada: %b - Saida: %b      C2 -> Invalido", Entrada_teste, Saida_teste);
         #250 Reset_teste = 1'b1;
         #250 Entrada_teste = 7'b0000000;
         #250 Reset_teste = 1'b0;
@@ -474,7 +474,7 @@ initial begin
         #500 Entrada_teste = 7'b1101110;
         #500 $display("Entrada: %b - Saida: %b      C5 -> Estado 5", Entrada_teste, Saida_teste);
         #500 Entrada_teste = 7'b1100000;
-        #500 $display("Entrada: %b - Saida: %b      C1 -> Estado 1", Entrada_teste, Saida_teste);
+        #500 $display("Entrada: %b - Saida: %b      C1 -> Invalido", Entrada_teste, Saida_teste);
         #250 Reset_teste = 1'b1;
         #250 Entrada_teste = 7'b0000000;
         #250 Reset_teste = 1'b0;
@@ -483,7 +483,7 @@ initial begin
         #500 Entrada_teste = 7'b1101110;
         #500 $display("Entrada: %b - Saida: %b      C5 -> Estado 5", Entrada_teste, Saida_teste);
         #500 Entrada_teste = 7'b1000100;
-        #500 $display("Entrada: %b - Saida: %b      C2 -> Estado 2", Entrada_teste, Saida_teste);
+        #500 $display("Entrada: %b - Saida: %b      C2 -> Invalido", Entrada_teste, Saida_teste);
         #250 Reset_teste = 1'b1;
         #250 Entrada_teste = 7'b0000000;
         #250 Reset_teste = 1'b0;
@@ -492,7 +492,7 @@ initial begin
         #500 Entrada_teste = 7'b1101110;
         #500 $display("Entrada: %b - Saida: %b      C5 -> Estado 5", Entrada_teste, Saida_teste);
         #500 Entrada_teste = 7'b1111100;
-        #500 $display("Entrada: %b - Saida: %b      C3 -> Estado 3", Entrada_teste, Saida_teste);
+        #500 $display("Entrada: %b - Saida: %b      C3 -> Invalido", Entrada_teste, Saida_teste);
         #250 Reset_teste = 1'b1;
         #250 Entrada_teste = 7'b0000000;
         #250 Reset_teste = 1'b0;
